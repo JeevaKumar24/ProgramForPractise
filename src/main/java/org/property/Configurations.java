@@ -11,7 +11,7 @@ public class Configurations {
 		{		
 			prop.load(file);
 		}catch (IOException e) {
-			System.out.println("Unable to find the property file");
+			System.out.println("Unable to find the property files");
 		}
 		return prop.getProperty(property);
 	}
